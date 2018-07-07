@@ -9,7 +9,7 @@ Mostly Server Hardware and sophisticated "home" networks. (It's only fun, when i
 
 ### More Information
 
-Born right before the turn of the millenium in Germany. I love technology, photography, sailing and many more things. 
+Born right before the turn of the millenium in Germany. I love technology, photography, sailing and many more things. I am by no means an expert when it comes to system administration, coding or anything else computer related, but I always give my very best to explain topics in simple terms and try to make technology easier to use for everyone!
 
 
 ### Contact me
