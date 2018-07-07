@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Mechanical Engineer who is interested in all sorts of stuff!
+I am a Mechanical Engineer who is interested in all sorts of stuff!
 Mostly Server Hardware and sophisticated "home" networks. (It's only fun, when it screams at you!)
 
 ### More Information
