@@ -1,9 +1,24 @@
 # NOTES
 
-code:
+**Code:**
 ```
 `
 ```
+
+**Images:**
+```
+![Clean Xen Orchestra WEB UI](/images/cleanxeno.png)
+```
+
+**Post:**
+```
+---
+layout: post
+title: testpost
+---
+```
+
+
 
 
 
