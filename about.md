@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Mechanical Engineer who is interested in all sorts of stuff!
+Mostly Server Hardware and sophisticated "home" networks. (It's only fun, when it screams at you!)
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Born right before the turn of the millenium in Germany. I love technology, photography, sailing and many more things. 
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Known on Reddit: https://www.reddit.com/user/TheGammel
+Talking on Discord: TheGammel#7129
+Playing on Steam: https://steamcommunity.com/id/cng_/
+Rendering on SHEEPit: https://www.sheepit-renderfarm.com/account.php?mode=profile&login=Cray-X
