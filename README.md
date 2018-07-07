@@ -5,6 +5,11 @@
 `
 ```
 
+**Links:**
+```
+[text](url)
+```
+
 **Images:**
 ```
 ![Clean Xen Orchestra WEB UI](/images/cleanxeno.png)
