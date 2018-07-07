@@ -15,6 +15,16 @@ Born right before the turn of the millenium in Germany. I love technology, photo
 ### Contact me
 
 Known on Reddit: https://www.reddit.com/user/TheGammel
+
 Talking on Discord: TheGammel#7129
+
 Playing on Steam: https://steamcommunity.com/id/cng_/
+
 Rendering on SHEEPit: https://www.sheepit-renderfarm.com/account.php?mode=profile&login=Cray-X
+
+
+
+
+
+
+
