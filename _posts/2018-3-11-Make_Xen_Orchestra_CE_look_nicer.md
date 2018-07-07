@@ -17,4 +17,4 @@ Here we go:
 * Hit ctrl+X to exit
 * **Enjoy a cleaner WEB UI!**
 
-
+![Clean Xen Orchestra WEB UI](/images/cleanxeno.jpg)
