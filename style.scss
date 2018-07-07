@@ -242,7 +242,10 @@ nav {
 //
 
 .welcome-message {
-  margin: 0 0 0 20px;
+  margin: 0 0 30px 0;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $lightGray;
 }
 
 .posts {
