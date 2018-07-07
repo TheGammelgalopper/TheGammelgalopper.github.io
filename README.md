@@ -1,6 +1,10 @@
 # NOTES
 
-` `code` `
+code:
+```
+`
+```
+
 
 
 # Jekyll Now
