@@ -9,15 +9,16 @@ Quorum is proxmox's way of determining the state of the cluster. Each cluster me
 
 To bypass that problem there is one very simple solution. You can use a raspberry pi to simulate a proxmox node to get a cluster of 3 nodes. You basically only install the service that manages the communication between the nodes. The other nodes then think that there is a third node available, although there is no real third node. There already is a wiki entry on the proxmox website for this. This entry however is somewhat outdated...
 
-My personal configuration includes a corosync network (10.10.11.0/24) on a dedicated network interface as described and recommended here. I use a Raspberry Pi 3 B+ with Debian Stretch (9) and a USB to Ethernet adapter for the corosync network.
+My personal configuration includes a corosync network (10.10.11.0/24) on a dedicated network interface as described and recommended [here](https://pve.proxmox.com/wiki/Separate_Cluster_Network). I use a Raspberry Pi 3 B+ with Debian Stretch (9) and a USB to Ethernet adapter for the corosync network.
 
 First do your general Pi configuration:
-set correct hostname
-change password for pi user
-enable root login with raspi-config
-set root password
-permit ssh root login in /etc/ssh/sshd_config ("yes", then /etc/init.d/ssh restart)
-update system
+* set correct hostname
+* change password for pi user
+* enable root login with raspi-config
+* set root password
+* permit ssh root login in `/etc/ssh/sshd_config` (save, then `/etc/init.d/ssh restart`)
+* update system
+
 Then perform these 10 steps to "add" your Pi to the cluster:
 connect second network interface and add ip in 10.10.11.0/24 range
 make sure that the hosts config in /etc/hosts is equal between all proxmox hosts
