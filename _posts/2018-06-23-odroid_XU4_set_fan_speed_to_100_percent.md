@@ -1,6 +1,6 @@
 ---
 layout: post
-title: odroid XU4: Set fan speed to 100%
+title: odroid XU4 - Set fan speed to 100%
 ---
 
 If you have an odroid XU4 and don't care about noise or you use another fan, it might be wise to set the fan speed to a 100%. This way you always have optimal cooling!
