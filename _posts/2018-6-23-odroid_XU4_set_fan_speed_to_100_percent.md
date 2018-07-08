@@ -5,7 +5,7 @@ title: testpost
 
 If you have an odroid XU4 and don't care about noise or you use another fan, it might be wise to set the fan speed to a 100%. This way you always have optimal cooling!
 
-This guide works for Ubuntu 16.04.4. Make sure to update the kernel first!
+This guide works for `Ubuntu 16.04.4`. Make sure to update the kernel first!
 ```
 apt update
 apt upgrade
