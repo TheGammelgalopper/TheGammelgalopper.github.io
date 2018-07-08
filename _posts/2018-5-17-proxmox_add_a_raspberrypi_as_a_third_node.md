@@ -20,19 +20,28 @@ First do your general Pi configuration:
 * update system
 
 Then perform these 10 steps to "add" your Pi to the cluster:
-connect second network interface and add ip in 10.10.11.0/24 range
-make sure that the hosts config in /etc/hosts is equal between all proxmox hosts
-Install corosync with apt-get install corosync
-copy over one existing corosync config from another host via scp <ipofexistingnode>:/etc/corosync/* /etc/corosync
-add the pi to the corosync config as a new node, set the config version to something higher
-copy this new corosync config to the other hosts (you can use scp)
-restart corosync on the first node in the config (ssh <ipOfFirstNode> systemctl restart corosync)
-restart corosync on the other nodes in ascending order
-start corosync on the pi with systemctl start corosync
-run corosync-quorumtool to check Qourum! Shutdown one node to test functionality, you might need to restart corosync if it doesn't work on first try!
+
+1. connect second network interface and add ip in 10.10.11.0/24 range
+2. make sure that the hosts config in `/etc/hosts` is equal between all proxmox hosts
+3. Install corosync with `apt-get install corosync`
+4. copy over one existing corosync config from another host via `scp <ipofexistingnode>:/etc/corosync/* /etc/corosync`
+5. add the pi to the corosync config as a new node, set the config version to something higher
+6. copy this new corosync config to the other hosts (you can use scp)
+7. restart corosync on the first node in the config (`ssh <ipOfFirstNode> systemctl restart corosync`)
+8. restart corosync on the other nodes in ascending order
+9. start corosync on the pi with `systemctl start corosync`
+10. run `corosync-quorumtool` to check Qourum! Shutdown one node to test functionality, you might need to restart corosync if it doesn't work on first try!
+
 Et voilà, you should have three nodes showing up in the gui as well! Keep in mind that the Pi will always show a red "X", as there is nothing installed which would enable virtualization. I know that this solution is far from pretty and not recommended, but for home use it completely does its job...
 
-WARNING
-pve-manager (the virtualization manager) is missing so don't add the pi to /etc/pve/corosync.conf
-If a new node is added the pve-manager will overwrite /etc/corosync/corosync.conf
-I give no guarantee so everything above is at your own risk!
+**UPDATE**
+
+After an update from 5.1 to 5.2 there was no creation of new VMs possible!
+
+Solution: Create a folder with the name of the pi-node in `/etc/pve/nodes` and copy the `ssl.pem` from another node.
+
+
+**WARNING
+* pve-manager (the virtualization manager) is missing so don't add the pi to /etc/pve/corosync.conf
+* If a new node is added the pve-manager will overwrite /etc/corosync/corosync.conf
+* I give no guarantee so everything above is at your own risk!**
