@@ -241,6 +241,10 @@ nav {
 // .main
 //
 
+#main {
+  margin-bottom: 110px;
+}
+
 .welcome-message {
   margin: 0 0 30px 0;
   text-align: center;
@@ -263,7 +267,6 @@ nav {
 }
 
 .post {
-  margin-bottom: 110px;
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
