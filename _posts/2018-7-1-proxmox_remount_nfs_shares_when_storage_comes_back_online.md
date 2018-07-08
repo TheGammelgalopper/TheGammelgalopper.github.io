@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Proxmox: Remount NFS shares when storage server comes back up
+title: Proxmox - Remount NFS shares when storage server comes back up
 ---
 
 I don't exactly know the problem, but it either is Proxmox or NFS. Somehow Proxmox has problems when a NFS share goes offline and then comes back online again. You often still can't see it in the Web UI then.
