@@ -15,7 +15,7 @@ reboot
 ```
 
 Then edit `/etc/rc.local` and add these two lines:
-Get Temps via:
+```
 echo 0 > /sys/devices/platform/pwm-fan/hwmon/hwmon0/automatic # sets fan to manual
 echo 255 > /sys/devices/platform/pwm-fan/hwmon/hwmon0/pwm1 # sets speed to 100%
 ```
