@@ -74,7 +74,7 @@ The caddies can be used through the whole range! There were only done some front
 
 ## Concerning Updates
 
-Big shoutout to Fujitsu for that! You can dowload like EVERYTHING for free from their website http://support.ts.fujitsu.com You just browse your server and you are directly presented with everything there is. You can even find their really old models there, so absolutely no problems with that! In addition to that I have found what they call an [illustrated spare catalog](http://manuals.ts.fujitsu.com/illustrated_spares/isc-portal-fts.php?filter=RX)! You again browse you product and you are then presented with multiple images of you server where you can just click on things on the image and you get a list of every spare part for that. This is helpful and cool times 10!
+Big shoutout to Fujitsu for that! You can dowload like EVERYTHING for free from their website [Support](http://support.ts.fujitsu.com) You just browse your server and you are directly presented with everything there is. You can even find their really old models there, so absolutely no problems with that! In addition to that I have found what they call an [illustrated spare catalog](http://manuals.ts.fujitsu.com/illustrated_spares/isc-portal-fts.php?filter=RX)! You again browse you product and you are then presented with multiple images of you server where you can just click on things on the image and you get a list of every spare part for that. This is helpful and cool times 10!
 
 ## Concerning Upgrades
 
