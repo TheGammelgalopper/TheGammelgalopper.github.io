@@ -263,8 +263,9 @@ nav {
 }
 
 .post {
+  margin-bottom: 110px;
   blockquote {
-    margin: 1.8em .8em 100px;
+    margin: 1.8em .8em;
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
