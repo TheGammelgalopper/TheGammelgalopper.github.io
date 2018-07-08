@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Proxmox: Add a Raspberry Pi as a third node
+title: Proxmox - Add a Raspberry Pi as a third node
 ---
 
 So in a home environment there often are not enough servers to run a full Proxmox cluster. I personally only have two servers which are being used as proxmox nodes. One is my production server where all those important services live and the other one is being used for testing. As I normally shutdown my test host when I don't need it, the cluster then moves in a less than ideal state... Why? Because Quorum!
