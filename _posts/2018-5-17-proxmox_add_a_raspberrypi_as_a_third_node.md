@@ -41,7 +41,7 @@ After an update from 5.1 to 5.2 there was no creation of new VMs possible!
 Solution: Create a folder with the name of the pi-node in `/etc/pve/nodes` and copy the `ssl.pem` from another node.
 
 
-**WARNING
-* pve-manager (the virtualization manager) is missing so don't add the pi to /etc/pve/corosync.conf
-* If a new node is added the pve-manager will overwrite /etc/corosync/corosync.conf
-* I give no guarantee so everything above is at your own risk!**
+**WARNING**
+* **pve-manager (the virtualization manager) is missing so don't add the pi to /etc/pve/corosync.conf**
+* **If a new node is added the pve-manager will overwrite /etc/corosync/corosync.conf**
+* **I give no guarantee so everything above is at your own risk!**
